@@ -117,7 +117,7 @@ declared inside `b()` and `b()` is declared inside `c()`, `a()` has access to
 functions and variables declared in its own scope, `b()`'s scope, and `c()`'s
 scope. That's the scope chain in action!
 
-***NOTE***: The scope chain only goes in one direction. An outer scope **does not
+***NOTE***: The scope chain only goes in _one_ direction. An outer scope **does not
 have access to things declared in an inner scope**. In the previous code
 snippet, `firstFunc()` **cannot access `secondVar`**. In addition, two
 functions declared in the same scope do not have access to anything declared
